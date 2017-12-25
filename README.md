@@ -11,6 +11,10 @@
 [![Latest Stable Version](https://poser.pugx.org/yiimaker/yii2-helpers/v/stable)](CHANGELOG.md)
 [![Latest Unstable Version](https://poser.pugx.org/yiimaker/yii2-helpers/v/unstable)](CHANGELOG.md)
 
+Helpers list:
+
+* [Html](https://github.com/yiimaker/yii2-helpers/blob/master/src/Html.php) - Extended default Html helper
+
 Installation
 ------------
 
