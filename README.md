@@ -14,7 +14,8 @@
 Helpers list:
 
 * [Html](https://github.com/yiimaker/yii2-helpers/blob/master/src/Html.php) - Extended default Html helper
-* [User Agent Helper](https://github.com/yiimaker/yii2-helpers/blob/master/src/UserAgentHelper.php) - Helper for manage of user agent.
+* [Array Helper](https://github.com/yiimaker/yii2-helpers/blob/master/src/ArrayHelper.php) - Extended default Array helper
+* [User Agent Helper](https://github.com/yiimaker/yii2-helpers/blob/master/src/UserAgentHelper.php) - Helper for manage of user agent
 
 Installation
 ------------
