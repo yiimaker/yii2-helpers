@@ -4,4 +4,3 @@ modules:
     enabled:
         - Asserts
         - Yii2
-        - Db
