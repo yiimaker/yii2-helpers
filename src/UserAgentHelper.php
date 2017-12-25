@@ -18,7 +18,7 @@ use Yii;
 class UserAgentHelper
 {
     /**
-     * @var null|string
+     * @var bool
      */
     private static $_cache;
 
