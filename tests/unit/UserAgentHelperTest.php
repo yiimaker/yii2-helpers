@@ -16,6 +16,7 @@ use ymaker\helpers\UserAgentHelper;
  * Test case for User Agent helper.
  *
  * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
+ * @since 1.0
  */
 class UserAgentHelperTest extends TestCase
 {

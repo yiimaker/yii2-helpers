@@ -10,9 +10,10 @@ namespace ymaker\helpers\tests\unit;
 use ymaker\helpers\ArrayHelper;
 
 /**
- * Test case fpr Array helper.
+ * Test case for Array helper.
  *
  * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
+ * @since 1.0
  */
 class ArrayHelperTest extends TestCase
 {
