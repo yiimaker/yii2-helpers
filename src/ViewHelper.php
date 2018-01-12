@@ -22,11 +22,11 @@ class ViewHelper
     }
 
     /**
-     * Returns side CSS class for block.
-     * This method should use in loops.
+     * Returns side CSS class for block. This method should use in loops.
      *
      * @param string $right CSS class for right block.
-     * @param string $left CSS class for left block.
+     * @param string $left  CSS class for left block.
+     *
      * @return string
      */
     public static function sideCssClass($right = 'right', $left = 'left')
@@ -39,6 +39,7 @@ class ViewHelper
      * Check whether is last iteration of the loop.
      *
      * @param int $total
+     *
      * @return bool
      */
     public static function isLast($total)
@@ -51,7 +52,8 @@ class ViewHelper
      * If number less than 9 before this number will be added zero.
      *
      * @param int|string $number
-     * @return string
+     *
+     * @return int|string
      */
     public static function zeroNumber($number)
     {

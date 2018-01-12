@@ -27,8 +27,9 @@ class ArrayHelper extends BaseArrayHelper
     /**
      * Returns next key of element in array.
      *
-     * @param int|string $currentKey
-     * @param array $array
+     * @param int|string    $currentKey
+     * @param array         $array
+     *
      * @return int|string|null Returns null if element with current key was last.
      */
     public static function nextKey($currentKey, array $array)
@@ -36,7 +37,7 @@ class ArrayHelper extends BaseArrayHelper
         reset($array);
         do {
             $tmpKey = key($array);
-            if (next($array) === false) {
+            if (false === next($array)) {
                 return null;
             }
         } while ($tmpKey !== $currentKey);
@@ -47,8 +48,9 @@ class ArrayHelper extends BaseArrayHelper
     /**
      * Returns prev key of element in array.
      *
-     * @param int|string $currentKey
-     * @param array $array
+     * @param int|string    $currentKey
+     * @param array         $array
+     *
      * @return int|string|null Returns null if element with current key was first.
      */
     public static function prevKey($currentKey, array $array)
@@ -56,7 +58,7 @@ class ArrayHelper extends BaseArrayHelper
         end($array);
         do {
             $tmpKey = key($array);
-            if (prev($array) === false) {
+            if (false === prev($array)) {
                 return null;
             }
         } while ($tmpKey !== $currentKey);

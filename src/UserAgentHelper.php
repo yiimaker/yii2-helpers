@@ -32,9 +32,11 @@ class UserAgentHelper
 
     /**
      * Check whether user agent is a Google Page Speed Insights.
+     *
      * @see https://stackoverflow.com/questions/29162881
      *
      * @param bool $useCache
+     *
      * @return bool
      */
     public static function isGooglePageSpeed($useCache = true)
