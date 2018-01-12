@@ -19,11 +19,11 @@ checks:
         return_doc_comments: true
         return_doc_comment_if_not_inferrable: true
         remove_extra_empty_lines: true
-        remove_php_closing_tag:
+        remove_php_closing_tag: true
         parameters_in_camelcaps: true
         parameter_doc_comments: true
         param_doc_comment_if_not_inferrable: true
-        properties_in_camelcaps: false
+        properties_in_camelcaps: true
         no_long_variable_names:
             maximum: '20'
         no_goto: true
@@ -35,7 +35,6 @@ checks:
             order_alphabetically: false
         fix_line_ending: true
         fix_php_opening_tag: true
-    javascript: true
 
 coding_style:
     php:
