@@ -7,7 +7,7 @@
 
 [![Build Status](https://travis-ci.org/yiimaker/yii2-helpers.svg?branch=master)](https://travis-ci.org/yiimaker/yii2-helpers)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yiimaker/yii2-helpers/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yiimaker/yii2-helpers/?branch=master)
-[![Total Downloads](https://poser.pugx.org/yiimaker/yii2-helpers/downloads)](https://packagist.org/packages/motion/yii2-language-provider)
+[![Total Downloads](https://poser.pugx.org/yiimaker/yii2-helpers/downloads)](https://packagist.org/packages/yiimaker/yii2-helpers)
 [![Latest Stable Version](https://poser.pugx.org/yiimaker/yii2-helpers/v/stable)](CHANGELOG.md)
 [![Latest Unstable Version](https://poser.pugx.org/yiimaker/yii2-helpers/v/unstable)](CHANGELOG.md)
 
@@ -32,14 +32,10 @@ $ composer require yiimaker/yii2-helpers
 or add
 
 ```
-"yiimaker/yii2-helpers": "dev-master"
+"yiimaker/yii2-helpers": "~1.0"
 ```
 
 to the `require` section of your `composer.json`.
-
-Usage
------
-
 
 Tests
 -----
